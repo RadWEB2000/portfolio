@@ -36,9 +36,7 @@ export const Global = createGlobalStyle`
         position:relative;
     }
     h1,
-    h2,
-    h3,
-    h4{
+    h2{
         font-family:${({theme}) => theme.fonts.family.heading};
     }
     html{

@@ -3,7 +3,7 @@ export const theme:DefaultTheme = {
     colors:{
         background:'#fafcfd',
         color:'#081e21',
-        gray:'#6e6e6e',
+        gray:'#888',
         primary:'#0f99bb',
         secondary:'#138ea0',
         tertiary:'#92adb1'
