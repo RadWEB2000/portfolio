@@ -8,5 +8,8 @@ export const Wrapper = styled.header`
         @media (max-width:1050px){
             width:95%;
         }
+        @media (max-width:400px){
+            width:99%;
+        }
     }
 `

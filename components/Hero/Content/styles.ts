@@ -75,5 +75,45 @@ export const Wrappper = styled.div`
                 }
             }
         }
+        @media (max-width:700px){
+            grid-column:1/-1;
+            margin:auto;
+            width:95%;
+            & > section {
+                & > h1{
+                    font-size:3.2rem;
+                    text-align:center;
+                }
+                & > p{
+                    font-size:1.55rem;
+                    line-height:1.7;
+                    text-align:center;
+                }
+            }
+            & > ul{
+                gap:.85rem;
+                margin:1rem auto;
+                & > li{
+                    & > a{
+                        font-size:1.8rem;
+                        padding:.75rem 1.85rem;
+                    }
+                }
+            }
+        }
+        @media (max-width:400px){
+            width:99%;
+        }
+        @media (max-width:330px){
+            & > section {
+                & > h1{
+                    font-size:2.7rem;
+                }
+                & > p{
+                    font-size:1.4rem;
+                    line-height:1.4;
+                }
+            }
+        }
     }
 `

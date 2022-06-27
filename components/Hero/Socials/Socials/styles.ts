@@ -10,4 +10,11 @@ export const Wrapper = styled.nav`
         height:100%;
         justify-content:flex-end;
     }
+    @media only screen {
+        @media (max-width:700px){
+            & > menu{
+                justify-content:center;
+            }
+        }
+    }
 `
