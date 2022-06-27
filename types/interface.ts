@@ -15,6 +15,20 @@ export interface IntHeroPoster {
     image:string;
     title:string;
 }
+export interface IntProjects extends IntProjectContent {
+    button:string;
+    cards:IntProjectCard[];
+}
+export interface IntProjectCard extends IntProjectContent{
+    button?:string;
+    image:string;
+    path:string;
+    stack:ReactElement[];
+}
+export interface IntProjectContent {
+    content:string;
+    title:string;
+}
 export interface IntSocial extends IntSocialColor {
     icon:ReactElement;
     path:string;
