@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 export const Wrapper = styled.div`
-    margin:2rem auto;
+    margin:2rem auto 0;
     & > ul{
         align-items:start;
         background-color:${({theme}) => theme.colors.color};

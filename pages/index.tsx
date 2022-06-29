@@ -1,4 +1,5 @@
 import { ThemeProvider } from "styled-components";
+import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero/Hero";
 import Projects from "../components/Projects/Projects/Projects";
 import Skills from "../components/Skills/Skills/Skills";
@@ -38,23 +39,7 @@ const Page = () => {
         content={projects.content}
         title={projects.title}
       />
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
+      <Footer/>
     </ThemeProvider>
   )
 }
