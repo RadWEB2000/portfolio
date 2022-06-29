@@ -29,6 +29,13 @@ export interface IntProjectContent {
     content:string;
     title:string;
 }
+export interface IntSkills extends IntProjectContent {
+    skills:IntSkillsItem[];
+}
+export interface IntSkillsItem {
+    icon:ReactElement;
+    value:number;
+}
 export interface IntSocial extends IntSocialColor {
     icon:ReactElement;
     path:string;
@@ -42,4 +49,5 @@ export interface IntTimeline {
 export interface IntTimelineCard extends IntTimeline{
     content:string;
     date:string;
+    title:string;
 }

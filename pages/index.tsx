@@ -1,14 +1,17 @@
 import { ThemeProvider } from "styled-components";
 import Hero from "../components/Hero/Hero/Hero";
 import Projects from "../components/Projects/Projects/Projects";
+import Skills from "../components/Skills/Skills/Skills";
+import Timeline from "../components/Timeline/Timeline/Timeline";
 import { content } from "../data/content";
+import { skills } from "../data/skills";
 import { socials } from "../data/socials";
 import { stack } from "../data/stack";
 import { Global } from "../styles/Global";
 import { theme } from "../styles/theme";
 
 const Page = () => {
-  const {seo,hero} = content;
+  const {seo,hero,projects} = content;
   return(
     <ThemeProvider theme={theme}>
       <Global/>
@@ -19,33 +22,22 @@ const Page = () => {
         socials={[...hero.socials]}
         title={hero.title}
       />
+      <div className='wrapper'>
+        <Timeline/>
+        <div className="cell">
+          <Skills
+            content={projects.content}
+            skills={[...skills]}
+            title='My skills'
+          />
+        </div>
+      </div>
       <Projects
-        button="See more"
-        cards={[
-          {
-            content:``,
-            image:'',
-            path:'',
-            stack:[html,css,typescript],
-            title:'Filip Bukowiecki'
-          }
-        ]}
-        content={`Ea quae ipsum excepturi. Quia distinctio iure aut. Molestias facilis eum est cumque quia doloribus nihil. Ad deleniti qui dolores. Officiis omnis ut suscipit. Possimus vitae quis et maxime fuga animi excepturiEa quae ipsum excepturi. Quia distinctio iure aut. Molestias facilis eum est cumque quia doloribus nihil. Ad deleniti qui dolores. Officiis omnis ut suscipit. Possimus vitae quis et maxime fuga animi excepturi.E`}
-        title="Projects"
+        button={projects.button}
+        cards={[...projects.cards]}
+        content={projects.content}
+        title={projects.title}
       />
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
       <li>a</li>
       <li>a</li>
       <li>a</li>

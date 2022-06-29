@@ -50,4 +50,34 @@ export const Global = createGlobalStyle`
     ul{
         list-style:none;
     }
+    .wrapper {
+        display:grid;
+        grid-template-columns:3fr 2fr;
+        & > .cell{
+            align-items:flex-start;
+            display:flex;
+            justify-content:center;
+            position:relative;
+            width:100%;
+        }
+        @media only screen {
+            @media (max-width:1450px){
+                grid-template-columns:51% 49%;
+            }
+            @media (max-width:1100px){
+                grid-template-columns:46% 54%;
+            }
+            @media (max-width:990px){
+                grid-template-columns:44% 56%;
+            }
+            @media (max-width:905px){
+                grid-template-columns:1fr;
+            }
+            @media (max-width:600px){
+                display:flex;
+                flex-flow:column;
+                grid-template-columns:1fr;
+            }
+        }
+    }
 `

@@ -6,7 +6,8 @@ export const theme:DefaultTheme = {
         gray:'#888',
         primary:'#0f99bb',
         secondary:'#138ea0',
-        tertiary:'#92adb1'
+        tertiary:'#92adb1',
+        quatenary:'#bde0fe',
     },
     fonts:{
         family:{

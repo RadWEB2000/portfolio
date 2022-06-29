@@ -1,10 +1,11 @@
 import { IntProjects } from "../../../types/interface";
 import Card from "../Card/Card"
 import Content from "../Content/Content"
+import { Wrapper } from "./styles";
 
 const Projects = ({button,cards,content,title}:IntProjects) => {
     return(
-        <div>
+        <Wrapper>
             <Content
                 content={content}
                 title={title}
@@ -23,7 +24,7 @@ const Projects = ({button,cards,content,title}:IntProjects) => {
                     />
                 )}
             </ul>
-        </div>
+        </Wrapper>
     )
 }
 export default Projects;
