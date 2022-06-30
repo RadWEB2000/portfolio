@@ -3,8 +3,8 @@ import { socials } from "./socials";
 
 export const content = {
     seo:{
-        title:'',
-        description:'',
+        title:'RadWEB - websites, internet applications, positioning',
+        description:'Welcome to the portfolio page where you will find out who I am and what projects I have completed as a web and application developer.',
         image:'/assets/images/river.webp',
     },
     hero:{
