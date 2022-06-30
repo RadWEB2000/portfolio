@@ -1,3 +1,4 @@
+import {BsMailbox} from 'react-icons/bs'
 import {RiFacebookFill,RiInstagramLine,RiGithubLine,RiLinkedinFill, RiTwitterFill} from 'react-icons/ri';
 import {FaYoutube} from 'react-icons/fa';
 import { ReactElement } from 'react';
@@ -42,6 +43,12 @@ export const socials:item[] = [
         color:'#0a66c2',
         icon:<RiLinkedinFill/>,
         path:'https://www.linkedin.com/in/rados%C5%82aw-adamczyk-853948195/',
+        title:'Radosław Adamczyk | LinkedIn'
+    },
+    {
+        color:'#D78D1D',
+        icon:<BsMailbox/>,
+        path:'mailto:radoslaw.adamczyk2000@gmail.com',
         title:'Radosław Adamczyk | LinkedIn'
     }
 ]

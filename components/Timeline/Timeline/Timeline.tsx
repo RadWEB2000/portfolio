@@ -1,64 +1,20 @@
+import { content } from "../../../data/content";
 import Card from "../Card/Card"
 
 const Timeline = () => {
+    const {timeline} = content;
     return(
         <div>
             <ul>
-                <Card
-                    content="Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia.Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia.Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia."
-                    date="12.02.2022 - 12.85.5253"
-                    title="Katolickie Publiczne Aklademickie Liceum Ogólnokształcące w Śremie"
-                />
-                <Card
-                    content="Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia.Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia.Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia.Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia.Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia.Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia.Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia."
-                    date="12.02.2022 - 12.85.5253"
-                    title="Katolickie Publiczne Aklademickie Liceum Ogólnokształcące w Śremie"
-                />
-                <Card
-                    content="Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia."
-                    date="12.02.2022 - 12.85.5253"
-                    title="Katolickie Publiczne Aklademickie Liceum Ogólnokształcące w Śremie"
-                />
-                <Card
-                    content="Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia."
-                    date="12.02.2022 - 12.85.5253"
-                    title="Katolickie Publiczne Aklademickie Liceum Ogólnokształcące w Śremie"
-                />
-                <Card
-                    content="Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia."
-                    date="12.02.2022 - 12.85.5253"
-                    title="Katolickie Publiczne Aklademickie Liceum Ogólnokształcące w Śremie"
-                />
-                <Card
-                    content="Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia."
-                    date="12.02.2022 - 12.85.5253"
-                    title="Katolickie Publiczne Aklademickie Liceum Ogólnokształcące w Śremie"
-                />
-                <Card
-                    content="Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia."
-                    date="12.02.2022 - 12.85.5253"
-                    title="Katolickie Publiczne Aklademickie Liceum Ogólnokształcące w Śremie"
-                />
-                <Card
-                    content="Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia."
-                    date="12.02.2022 - 12.85.5253"
-                    title="Katolickie Publiczne Aklademickie Liceum Ogólnokształcące w Śremie"
-                />
-                <Card
-                    content="Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia."
-                    date="12.02.2022 - 12.85.5253"
-                    title="Katolickie Publiczne Aklademickie Liceum Ogólnokształcące w Śremie"
-                />
-                <Card
-                    content="Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia."
-                    date="12.02.2022 - 12.85.5253"
-                    title="Katolickie Publiczne Aklademickie Liceum Ogólnokształcące w Śremie"
-                />
-                <Card
-                    content="Id minus praesentium autem nam rem. Debitis quia iure et eius deleniti aperiam earum sunt. Fugit dignissimos veniam in. Accusantium vel nostrum et dolorem ad. Dignissimos fugiat ut maiores aut. Non molestias repellat molestiae nesciunt mollitia."
-                    date="12.02.2022 - 12.85.5253"
-                    title="Katolickie Publiczne Aklademickie Liceum Ogólnokształcące w Śremie"
-                />
+                {timeline.map(({content,date,title},key) =>
+                    <Card
+                        content={content}
+                        date={date}
+                        key={key}
+                        title={title}
+                    />
+                )}
+                
             </ul>
         </div>
     )

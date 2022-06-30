@@ -29,6 +29,14 @@ export interface IntProjectContent {
     content:string;
     title:string;
 }
+export interface IntSeo{
+    canonical?:string;
+    description:string;
+    image:string;
+    robots?:string;
+    title:string;
+    typePage?:string;
+}
 export interface IntSkills extends IntProjectContent {
     skills:IntSkillsItem[];
 }
