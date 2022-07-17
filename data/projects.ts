@@ -15,7 +15,7 @@ const {
 export const projects = [
     {
         content:`The first application where I used SSG inside NextJS application. This is first version of this app. I want add here Redux to store list of favourite movie, tv show or person and write custom video player in future.`,
-        image:'/assets/images/radweb.jpg',
+        image:'/assets/images/man-gd20cf27d0_1920.jpg',
         path:'https://netflix-pied-alpha.vercel.app/',
         stack:[html,css,styled,javascript,typescript,next],
         title:'RadWEB NetflixCopy'
