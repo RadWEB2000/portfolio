@@ -14,7 +14,7 @@ const {
 } = stack;
 export const projects = [
     {
-        content:`The first application where I used SSG inside NextJS application. This is first version of this app. I want add here Redux to store list of favourite movie, tv show or person and write custom video player in future.`,
+        content:`Yhis is the first application where I used SSG inside NextJS application and it is first version of this app. I want to add here Redux to store list of favourite movie, tv show or person and write custom video player in the future.`,
         image:'/assets/images/man-gd20cf27d0_1920.jpg',
         path:'https://rad-web-filmbase.vercel.app/',
         stack:[html,css,styled,javascript,typescript,next],
